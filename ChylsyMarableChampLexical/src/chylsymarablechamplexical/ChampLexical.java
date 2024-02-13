@@ -45,24 +45,24 @@ public class ChampLexical {
      */
     public static void inscrireLesNomsCommuns() {
 
-        nomsCommuns[0] = "Noms Communs:                 ";
-        nomsCommuns[1] = "navigateur                    ";
+        nomsCommuns[0] = "Noms Communs:              ";
+        nomsCommuns[1] = "navigateur                 ";
         // [1] traduction: 'browser'
-        nomsCommuns[2] = "serveur                       ";
-        nomsCommuns[3] = "site web                      ";
-        nomsCommuns[4] = "codage                        ";
-        nomsCommuns[5] = "laboratoire                   ";
-        nomsCommuns[6] = "intelligence artificielle     ";
-        nomsCommuns[7] = "données                       ";
-        nomsCommuns[8] = "mathématiques                 ";
-        nomsCommuns[9] = "fonction                      ";
-        nomsCommuns[10] = "variable                      ";
-        nomsCommuns[11] = "jeux vidéo                    ";
-        nomsCommuns[12] = "logiciel                      ";
+        nomsCommuns[2] = "serveur                    ";
+        nomsCommuns[3] = "site web                   ";
+        nomsCommuns[4] = "codage                     ";
+        nomsCommuns[5] = "laboratoire                ";
+        nomsCommuns[6] = "intelligence artificielle  ";
+        nomsCommuns[7] = "données                    ";
+        nomsCommuns[8] = "mathématiques              ";
+        nomsCommuns[9] = "fonction                   ";
+        nomsCommuns[10] = "variable                   ";
+        nomsCommuns[11] = "jeux vidéo                 ";
+        nomsCommuns[12] = "logiciel                   ";
         // [12] traduction: 'software'
-        nomsCommuns[13] = "langage                       ";
-        nomsCommuns[14] = "console                       ";
-        nomsCommuns[15] = "application                   ";
+        nomsCommuns[13] = "langage                    ";
+        nomsCommuns[14] = "console                    ";
+        nomsCommuns[15] = "application                ";
     }
 
     /**
