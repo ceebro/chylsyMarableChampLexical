@@ -36,7 +36,7 @@ public class ChylsyMarableChampLexical {
      */
     public static void présenterLesCatégories() {
 
-        System.out.println(ANSI_PURPLE + SUJET + "\n" + ANSI_PURPLE);
+        System.out.println(ANSI_PURPLE + SUJET + "\n");
 
         System.out.println(ANSI_CYAN
                 + champ.nomsCommuns[0]
@@ -45,7 +45,6 @@ public class ChylsyMarableChampLexical {
                 + champ.langages[0]
                 + champ.émotions[0]
                 + champ.matérielsInformatiques[0]
-                + ANSI_CYAN
         );
 
         for (int i = 1; i < 16; i++) {
@@ -57,7 +56,6 @@ public class ChylsyMarableChampLexical {
                     + champ.langages[i]
                     + champ.émotions[i]
                     + champ.matérielsInformatiques[i]
-                    + ANSI_GREEN
             );
         }
     }
