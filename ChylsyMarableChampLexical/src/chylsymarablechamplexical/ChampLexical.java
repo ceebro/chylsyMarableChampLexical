@@ -126,17 +126,17 @@ public class ChampLexical {
         langages[4] = "HTML         ";
         langages[5] = "CSS          ";
         langages[6] = "JavaScript   ";  // HTML, CSS, et JavaScript sont utilisés
-        // pour développer des site webs
+                                        // pour développer des site webs
         langages[7] = "Lua          ";  // la langage primare de Roblox
         langages[8] = "Ruby         ";
         langages[9] = "Kotlin       ";  // utilisé dans les systèmes d'Android
         langages[10] = "PHP          ";
         langages[11] = "Scala        ";
-        langages[12] = "C++          ";  // la langage de Windows, CSGO, et Adobe
-        // Photoshop
+        langages[12] = "C++          "; // la langage de Windows, CSGO, et Adobe
+                                        // Photoshop
         langages[13] = "Assembly     ";
         langages[14] = "Go           ";
-        langages[15] = "Swift        ";  // utilisé dans les systèmes d'Apple
+        langages[15] = "Swift        "; // utilisé dans les systèmes d'Apple
     }
 
     /**
