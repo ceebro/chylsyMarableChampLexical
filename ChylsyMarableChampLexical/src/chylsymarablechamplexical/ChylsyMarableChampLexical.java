@@ -14,7 +14,7 @@ public class ChylsyMarableChampLexical {
     public static final String SUJET = "La Technologie et la Science Informatique";
 
     // vous trouverez les mots de mon champ lexical ici
-    static ChampLexical champ = new ChampLexical();
+    private static ChampLexical champ = new ChampLexical();
 
     public static final String ANSI_PURPLE = "\u001B[35m";
     public static final String ANSI_CYAN = "\u001B[36m";
