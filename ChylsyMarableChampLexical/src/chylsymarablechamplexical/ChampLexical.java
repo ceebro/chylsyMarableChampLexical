@@ -30,7 +30,7 @@ public class ChampLexical {
      * La méthode suivante inscrit les mots de mon champ lexical selon les les
      * catégories en haut (cette méthode inscrit les noms communs)
      */
-    public static void inscrireLesMots() {
+    private static void inscrireLesMots() {
 
         inscrireLesNomsCommuns();
         inscrireLesVerbes();
