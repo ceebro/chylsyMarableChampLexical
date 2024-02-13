@@ -11,12 +11,12 @@ public class ChampLexical {
 
     // mes catégories de mots sont des 'arrays' qui garde les mots dans des
     // indexes entre 0 à 15 (il y a 16 éléments dans chacun)
-    public static String[] nomsCommuns = new String[16];
-    public static String[] verbes = new String[16];
-    public static String[] adjectifs = new String[16];
-    public static String[] langages = new String[16];
-    public static String[] émotions = new String[16];
-    public static String[] matérielsInformatiques = new String[16];
+    protected static String[] nomsCommuns = new String[16];
+    protected static String[] verbes = new String[16];
+    protected static String[] adjectifs = new String[16];
+    protected static String[] langages = new String[16];
+    protected static String[] émotions = new String[16];
+    protected static String[] matérielsInformatiques = new String[16];
 
     /**
      * Default constructor, set class properties
@@ -43,7 +43,7 @@ public class ChampLexical {
     /**
      * Cette méthode inscrit les noms communs de mon champ lexical
      */
-    public static void inscrireLesNomsCommuns() {
+    private static void inscrireLesNomsCommuns() {
 
         nomsCommuns[0] = "Noms Communs:              ";
         nomsCommuns[1] = "navigateur                 ";
@@ -68,7 +68,7 @@ public class ChampLexical {
     /**
      * La méthode suivante inscrit les verbes de mon champ lexical
      */
-    public static void inscrireLesVerbes() {
+    private static void inscrireLesVerbes() {
 
         verbes[0] = "Verbes:        ";
         verbes[1] = "taper          ";
@@ -91,7 +91,7 @@ public class ChampLexical {
     /**
      * Ça inscrit les adjectifs de mon champ lexical
      */
-    public static void inscrireLesAdjectifs() {
+    private static void inscrireLesAdjectifs() {
 
         adjectifs[0] = "Adjectifs:      ";
         adjectifs[1] = "analytique      ";
@@ -115,7 +115,7 @@ public class ChampLexical {
      * Ça inscrit les langages de programmation de mon champ lexical (les noms
      * propres)
      */
-    public static void inscrireLesLangages() {
+    private static void inscrireLesLangages() {
 
         langages[0] = "Langages:    ";
         langages[1] = "Java         ";
@@ -143,7 +143,7 @@ public class ChampLexical {
      * Une catégorie que j'ai choisi sont des émotions que la science
      * informatique incitent souvent
      */
-    public static void inscrireLesÉmotions() {
+    private static void inscrireLesÉmotions() {
 
         émotions[0] = "Émotions:    ";
         émotions[1] = "colère       ";
@@ -167,7 +167,7 @@ public class ChampLexical {
      * Une autre catégorie que j'ai choisi sont des matériels ou du hardware
      * associés à la technologie
      */
-    public static void inscrireLesMatérielsInformatiques() {
+    private static void inscrireLesMatérielsInformatiques() {
 
         matérielsInformatiques[0] = "Matériels Informatiques:   ";
         matérielsInformatiques[1] = "ordinateur                 ";
