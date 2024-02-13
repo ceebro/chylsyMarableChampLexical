@@ -42,6 +42,7 @@ public class ChylsyMarableChampLexical {
                 + champ.nomsCommuns[0]
                 + champ.verbes[0]
                 + champ.adjectifs[0]
+                + champ.langages[0]
                 + champ.émotions[0]
                 + champ.matérielsInformatiques[0]
                 + ANSI_CYAN
