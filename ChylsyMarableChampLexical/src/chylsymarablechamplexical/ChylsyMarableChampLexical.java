@@ -11,14 +11,14 @@ package chylsymarablechamplexical;
 public class ChylsyMarableChampLexical {
 
     // le sujet que j'ai choisi
-    public static final String SUJET = "La Technologie et la Science Informatique";
+    private static final String SUJET = "La Technologie et la Science Informatique";
 
     // vous trouverez les mots de mon champ lexical ici
-    private static ChampLexical champ = new ChampLexical();
+    public static ChampLexical champ = new ChampLexical();
 
-    public static final String ANSI_PURPLE = "\u001B[35m";
-    public static final String ANSI_CYAN = "\u001B[36m";
-    public static final String ANSI_GREEN = "\u001B[32m";
+    private static final String ANSI_PURPLE = "\u001B[35m";
+    private static final String ANSI_CYAN = "\u001B[36m";
+    private static final String ANSI_GREEN = "\u001B[32m";
 
     /**
      * Main method for the project
